@@ -132,7 +132,7 @@
 
 ### E. Merge Conflict Resolution
 
-![alt text](Screenshot 2025-06-28 094825.png)
-![alt text](Screenshot 2025-06-28 094842.png)
-![alt text](Screenshot 2025-06-28 094900.png)
+![alt text](Screenshot%2025-06-28 094825.png)
+![alt text](Screenshot%2025-06-28 094842.png)
+![alt text](Screenshot%2025-06-28 094900.png)
 ![alt text](image-1.png)
