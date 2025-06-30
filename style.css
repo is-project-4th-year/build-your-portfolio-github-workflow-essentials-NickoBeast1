@@ -32,7 +32,9 @@ nav a {
   color: white;
 }
 
-.hero .cta {
+.hero .cta,
+.hero .cta:visited,
+.hero .cta:active {
   display: inline-block;
   margin-top: 20px;
   background: white;
@@ -41,6 +43,12 @@ nav a {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.hero .cta:hover {
+  background-color: #e6f0ff;
+  color: #0056b3;
 }
 
 @media screen and (max-width: 600px) {
@@ -133,4 +141,32 @@ nav a {
   color: #1e90ff;
   text-decoration: none;
   font-weight: bold;
+}
+
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-image {
+  width: 260px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 25px;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
 }
